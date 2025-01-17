@@ -47,7 +47,7 @@ events:
     city: false
     timer: 180
     timerRandom: 23500
-    
+
   - name: STR_STORY_3_EVENT
     description: STR_STORY_3_EVENT_DESCRIPTION
     background: BACK02.SCR

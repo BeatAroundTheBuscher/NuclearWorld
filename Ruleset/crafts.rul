@@ -1,127 +1,126 @@
 crafts:
+  - delete: STR_SKYRANGER
+  - delete: STR_LIGHTNING
+  - delete: STR_AVENGER
+  - delete: STR_INTERCEPTOR
+  - delete: STR_FIRESTORM
 
-    - delete: STR_SKYRANGER
-    - delete: STR_LIGHTNING
-    - delete: STR_AVENGER
-    - delete: STR_INTERCEPTOR
-    - delete: STR_FIRESTORM
-
-    - type: STR_CARAVAN
-      marker: 9
-      radarRange: 100
-      radarChance: 0
-      sightRange: 2000
-      sprite: 99
-      fuelMax: 9999
-      damageMax: 150
-      speedMax: 400
-      accel: 1
-      soldiers: 2
-      pilots: 1
-      vehicles: 0
-      costBuy: 10000
-      costRent: 0
-      forceShowInMonthlyCosts: true
-      refuelRate: 9999
-      transferTime: 12
-      score: 10
-      battlescapeTerrainData:
-        name: NUCLEAR_WORLD_MOTORCYCLE
-        mapDataSets:
-          - BLANKS
-          - XARMY
-        mapBlocks:
-          - name: NUCLEAR_WORLD_MOTORCYCLE
-            width: 10
-            length: 10
-      craftInventoryTile: [4, 5, 0]
-      deployment:
-        - [4, 6, 0, 4]
-        - [6, 3, 0, 4]
+  - type: STR_CARAVAN
+    marker: 9
+    radarRange: 100
+    radarChance: 0
+    sightRange: 2000
+    sprite: 99
+    fuelMax: 9999
+    damageMax: 150
+    speedMax: 400
+    accel: 1
+    soldiers: 2
+    pilots: 1
+    vehicles: 0
+    costBuy: 10000
+    costRent: 0
+    forceShowInMonthlyCosts: true
+    refuelRate: 9999
+    transferTime: 12
+    score: 10
+    battlescapeTerrainData:
+      name: NUCLEAR_WORLD_MOTORCYCLE
+      mapDataSets:
+        - BLANKS
+        - XARMY
+      mapBlocks:
+        - name: NUCLEAR_WORLD_MOTORCYCLE
+          width: 10
+          length: 10
+    craftInventoryTile: [4, 5, 0]
+    deployment:
+      - [4, 6, 0, 4]
+      - [6, 3, 0, 4]
 # unit facing
 # 6 7 0
 # 5   1
 # 4 3 2
 
-    - type: STR_LARGE_CARAVAN
-      marker: 10
-      radarRange: 100
-      requires:
-        - STR_LARGE_CARAVAN
-      radarChance: 0
-      sightRange: 2000
-      sprite: 100
-      fuelMax: 9999
-      damageMax: 150
-      speedMax: 100
-      accel: 1
-      soldiers: 4
-      pilots: 1
-      vehicles: 0
-      costBuy: 50000
-      costRent: 0
-      forceShowInMonthlyCosts: true
-      refuelRate: 9999
-      transferTime: 12
-      score: 10
-      battlescapeTerrainData:
-        name: NUCLEAR_WORLD_HUMVEE
-        mapDataSets:
-          - BLANKS
-          - XARMY
-        mapBlocks:
-          - name: NUCLEAR_WORLD_HUMVEE
-            width: 10
-            length: 10
-      craftInventoryTile: [4, 5, 0]
-      deployment:
-        - [5, 4, 0, 3]
-        - [2, 5, 0, 5]
-        - [5, 5, 0, 2]
-        - [2, 4, 0, 6]
+  - type: STR_LARGE_CARAVAN
+    marker: 10
+    radarRange: 100
+    requires:
+      - STR_LARGE_CARAVAN
+    radarChance: 0
+    sightRange: 2000
+    sprite: 100
+    fuelMax: 9999
+    damageMax: 150
+    speedMax: 100
+    accel: 1
+    soldiers: 4
+    pilots: 1
+    vehicles: 0
+    costBuy: 50000
+    costRent: 0
+    forceShowInMonthlyCosts: true
+    refuelRate: 9999
+    transferTime: 12
+    score: 10
+    battlescapeTerrainData:
+      name: NUCLEAR_WORLD_HUMVEE
+      mapDataSets:
+        - BLANKS
+        - XARMY
+      mapBlocks:
+        - name: NUCLEAR_WORLD_HUMVEE
+          width: 10
+          length: 10
+    craftInventoryTile: [4, 5, 0]
+    deployment:
+      - [5, 4, 0, 3]
+      - [2, 5, 0, 5]
+      - [5, 5, 0, 2]
+      - [2, 4, 0, 6]
 # unit facing
 # 6 7 0
 # 5   1
 # 4 3 2
 
-    - type: STR_CONVOY
-      marker: 11
-      radarRange: 100
-      requires:
-        - STR_CONVOY
-      radarChance: 0
-      sightRange: 2000
-      sprite: 101
-      fuelMax: 9999
-      damageMax: 150
-      speedMax: 100
-      accel: 1
-      soldiers: 12
-      pilots: 1
-      vehicles: 0
-      costSell: 50000
-      costRent: 0
-      forceShowInMonthlyCosts: true
-      refuelRate: 9999
-      transferTime: 12
-      score: 10
-      battlescapeTerrainData:
-        name: CIRIUS_TRUCK
-        mapDataSets:
-          - BLANKS
-          - CIRIUS_TRUCK
-        mapBlocks:
-          - name: CIRIUS_TRUCK
-            width: 10
-            length: 20
-      #craftInventoryTile: [4, 5, 0]
-      #deployment:
-      #  - [4, 6, 0, 4]
-      #  - [6, 3, 0, 4]
+  - type: STR_CONVOY
+    marker: 11
+    radarRange: 100
+    requires:
+      - STR_CONVOY
+    radarChance: 0
+    sightRange: 2000
+    sprite: 101
+    fuelMax: 9999
+    damageMax: 150
+    speedMax: 100
+    accel: 1
+    soldiers: 12
+    pilots: 1
+    vehicles: 0
+    costSell: 50000
+    costRent: 0
+    forceShowInMonthlyCosts: true
+    refuelRate: 9999
+    transferTime: 12
+    score: 10
+    battlescapeTerrainData:
+      name: CIRIUS_TRUCK
+      mapDataSets:
+        - BLANKS
+        - CIRIUS_TRUCK
+      mapBlocks:
+        - name: CIRIUS_TRUCK
+          width: 10
+          length: 20
+    #craftInventoryTile: [4, 5, 0]
+    #deployment:
+    #  - [4, 6, 0, 4]
+    #  - [6, 3, 0, 4]
 # unit facing
 # 6 7 0
 # 5   1
 # 4 3 2
 
-    #- type: STR_VERTIBIRD
-    #  marker: 12
+  #- type: STR_VERTIBIRD
+  #  marker: 12

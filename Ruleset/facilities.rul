@@ -76,7 +76,7 @@ facilities:
     storage: 5 #OXCE bonus because of change in handling craft storage
     storageTiles: [[-1, -1, -1]]
     mapName: XBASE_16
-    
+
   # - type: STR_TEST
   #   spriteShape: 1
   #   spriteFacility: 601

@@ -37,7 +37,7 @@ research:
   - delete: STR_UFO_POWER_SOURCE
 
   - delete: STR_UFO_NAVIGATION
-  
+
   - delete: STR_UFO_CONSTRUCTION
 
   - delete: STR_ALIEN_FOOD
@@ -77,13 +77,13 @@ research:
 
   - delete: STR_PLASMA_DEFENSE
 
- 
+
   - delete: STR_FUSION_DEFENSE
 
- 
+
   - delete: STR_GRAV_SHIELD
 
- 
+
   - delete: STR_MIND_SHIELD
 
   - delete: STR_PSI_LAB
@@ -109,9 +109,9 @@ research:
   - delete: STR_CELATID_CORPSE
 
   - delete: STR_SILACOID_CORPSE
- 
+
   - delete: STR_CHRYSSALID_CORPSE
-  
+
   - delete: STR_REAPER_CORPSE
 
   - delete: STR_SECTOPOD_CORPSE
@@ -119,9 +119,9 @@ research:
   - delete: STR_CYBERDISC_CORPSE
 
   - delete: STR_ALIEN_ORIGINS
- 
+
   - delete: STR_THE_MARTIAN_SOLUTION
- 
+
   - delete: STR_CYDONIA_OR_BUST
 
   - delete: STR_PERSONAL_ARMOR
@@ -131,7 +131,7 @@ research:
   - delete: STR_FLYING_SUIT
 
   - delete: STR_SECTOID_COMMANDER
- 
+
   - delete: STR_SECTOID_LEADER
 
   - delete: STR_SECTOID_ENGINEER
@@ -151,7 +151,7 @@ research:
   - delete: STR_SNAKEMAN_MEDIC
 
   - delete: STR_SNAKEMAN_NAVIGATOR
- 
+
   - delete: STR_SNAKEMAN_SOLDIER
 
   - delete: STR_ETHEREAL_COMMANDER
@@ -163,7 +163,7 @@ research:
   - delete: STR_ETHEREAL_MEDIC
 
   - delete: STR_ETHEREAL_NAVIGATOR
- 
+
   - delete: STR_ETHEREAL_SOLDIER
 
   - delete: STR_MUTON_COMMANDER
@@ -181,7 +181,7 @@ research:
   - delete: STR_FLOATER_COMMANDER
 
   - delete: STR_FLOATER_LEADER
- 
+
   - delete: STR_FLOATER_ENGINEER
 
   - delete: STR_FLOATER_MEDIC
@@ -204,25 +204,25 @@ research:
   - delete: STR_CYBERDISC_TERRORIST
 
   - delete: STR_PLASMA_CANNON_DEP1
- 
+
   - delete: STR_PLASMA_CANNON_DEP2
 
   - delete: STR_SECTOID_AUTOPSY
 
   - delete: STR_SNAKEMAN_AUTOPSY
- 
+
   - delete: STR_ETHEREAL_AUTOPSY
-  
+
   - delete: STR_MUTON_AUTOPSY
 
   - delete: STR_FLOATER_AUTOPSY
- 
+
   - delete: STR_CELATID_AUTOPSY
 
   - delete: STR_SILACOID_AUTOPSY
 
   - delete: STR_CHRYSSALID_AUTOPSY
- 
+
   - delete: STR_REAPER_AUTOPSY
 
   - delete: STR_SECTOPOD_AUTOPSY
@@ -232,7 +232,7 @@ research:
   - delete: STR_SECTOID
 
   - delete: STR_SNAKEMAN
-  
+
   - delete: STR_ETHEREAL
 
   - delete: STR_MUTON
@@ -240,13 +240,13 @@ research:
   - delete: STR_FLOATER
 
   - delete: STR_CELATID
- 
+
   - delete: STR_SILACOID
 
   - delete: STR_CHRYSSALID
 
   - delete: STR_REAPER
- 
+
   - delete: STR_SECTOPOD
 
   - delete: STR_CYBERDISC
@@ -664,7 +664,7 @@ research:
     points: 50
     needItem: true
     destroyItem: false
-    
+
 
 
   #corpses
@@ -776,7 +776,7 @@ research:
     cost: 5
     points: 50
     needItem: true
-    destroyItem: false    
+    destroyItem: false
 
 
   - name: STR_BOW
@@ -991,7 +991,7 @@ research:
     cost: 0
     points: 0
     dependencies:
-      - "STR_PREWAR_SMG"      
+      - "STR_PREWAR_SMG"
 
   - name: STR_REVOLVER_CLIP
     cost: 0

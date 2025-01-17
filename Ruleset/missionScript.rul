@@ -73,7 +73,7 @@ missionScripts:
     randomDelay: 43500
     startDelay: 20
     researchTriggers:
-     STR_ENEMY_MUTANTS: true
+      STR_ENEMY_MUTANTS: true
 
   - type: mutantCaravan
     missionWeights:
@@ -88,7 +88,7 @@ missionScripts:
     randomDelay: 43500
     startDelay: 20
     researchTriggers:
-     STR_ENEMY_MUTANTS: true
+      STR_ENEMY_MUTANTS: true
 
   - type: mutantRaid
     missionWeights:
@@ -103,7 +103,7 @@ missionScripts:
     randomDelay: 43500
     startDelay: 20
     researchTriggers:
-     STR_ENEMY_MUTANTS: true
+      STR_ENEMY_MUTANTS: true
 
   - type: ghoulPatrol
     missionWeights:
@@ -118,7 +118,7 @@ missionScripts:
     randomDelay: 43500
     startDelay: 20
     researchTriggers:
-     STR_ENEMY_GHOULS: true
+      STR_ENEMY_GHOULS: true
 
   - type: ghoulCaravan
     missionWeights:
@@ -133,7 +133,7 @@ missionScripts:
     randomDelay: 43500
     startDelay: 20
     researchTriggers:
-     STR_ENEMY_GHOULS: true
+      STR_ENEMY_GHOULS: true
 
   - type: ghoulRaid
     missionWeights:
@@ -626,7 +626,7 @@ missionScripts:
     randomDelay: 43500
     startDelay: 20
     researchTriggers:
-     STR_RAIDING_PREPPERS_SITES: true
+      STR_RAIDING_PREPPERS_SITES: true
 
   - type: lab
     missionWeights:
@@ -641,7 +641,7 @@ missionScripts:
     randomDelay: 43500
     startDelay: 20
     researchTriggers:
-     STR_RAIDING_PREPPERS_SITES: true
+      STR_RAIDING_PREPPERS_SITES: true
 
   - type: prepperShelter
     missionWeights:
@@ -656,7 +656,7 @@ missionScripts:
     randomDelay: 43500
     startDelay: 20
     researchTriggers:
-     STR_RAIDING_PREPPERS_SITES: true
+      STR_RAIDING_PREPPERS_SITES: true
 
   - type: finalOnslaught
     missionWeights:
@@ -682,7 +682,7 @@ missionScripts:
     randomDelay: 43500
     startDelay: 100
     researchTriggers:
-     STR_BOUNTY_HUNTING: true
+      STR_BOUNTY_HUNTING: true
 
   - type: bloodForScientists
     missionWeights:

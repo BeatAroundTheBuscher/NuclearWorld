@@ -1,4 +1,4 @@
- 
+
 armors:
   - delete: STR_NONE_UC
 
@@ -81,7 +81,7 @@ armors:
       - 1.0 #7 Melee
       - 1.0 #8 Acid
       - 0.3 #9 Smoke
-    loftempsSet: [ 3 ]
+    loftempsSet: [3]
 
   #player soldiers
   - type: STR_LEATHER_ARMOR
@@ -109,7 +109,7 @@ armors:
       - 0.6 #7 Melee
       - 1.0 #8 Acid
       - 0.3 #9 Smoke
-    loftempsSet: [ 3 ]
+    loftempsSet: [3]
 
 
   - type: STR_WASTELANDER_ARMOR
@@ -137,7 +137,7 @@ armors:
       - 0.5 #7 Melee
       - 1.0 #8 Acid
       - 0.3 #9 Smoke
-    loftempsSet: [ 3 ]
+    loftempsSet: [3]
     forcedTorso: 1
     stats:
       stamina: 10
@@ -145,7 +145,7 @@ armors:
       firing: -3
       throwing: -7
       strength: -5
-      bravery: 15    
+      bravery: 15
 
   - type: STR_HAZMAT_ARMOR
     spriteSheet: HAZMAT_ARMOR.PCK
@@ -173,7 +173,7 @@ armors:
       - 0.8 #7 Melee
       - 1.0 #8 Acid
       - 0.0 #9 Smoke
-    loftempsSet: [ 3 ]
+    loftempsSet: [3]
 
   - type: STR_HAZMAT_ACID_ARMOR
     spriteSheet: HAZMAT_ARMOR.PCK
@@ -201,7 +201,7 @@ armors:
       - 0.9 #7 Melee
       - 0.0 #8 Acid
       - 0.0 #9 Smoke
-    loftempsSet: [ 3 ]
+    loftempsSet: [3]
     forcedTorso: 1
 
   - type: STR_PROTOTYPE_POWER_ARMOR
@@ -227,15 +227,15 @@ armors:
       - 0.5 #7 Melee
       - 0.5 #8 Acid
       - 0.1 #9 Smoke
-    loftempsSet: [ 3 ]
+    loftempsSet: [3]
     forcedTorso: 1
     stats:
-       stamina: 15
-       reactions: -5
-       firing: -5
-       strength: 30
-       bravery: 30
-    
+      stamina: 15
+      reactions: -5
+      firing: -5
+      strength: 30
+      bravery: 30
+
 
   - type: STR_POWER_ARMOR
     spriteSheet: POWERARMOR.PCK
@@ -258,14 +258,14 @@ armors:
       - 0.5 #7 Melee
       - 0.5 #8 Acid
       - 0.1 #9 Smoke
-    loftempsSet: [ 3 ]
+    loftempsSet: [3]
     forcedTorso: 1
     stats:
-       stamina: 10
-       reactions: -10
-       firing: -5
-       strength: 50
-       bravery: 40 
+      stamina: 10
+      reactions: -10
+      firing: -5
+      strength: 50
+      bravery: 40
 
   - type: STR_HANDCRAFTED_POWER_ARMOR
     spriteSheet: MK1_POWER_ARMOR.PCK
@@ -288,14 +288,14 @@ armors:
       - 0.4 #7 Melee
       - 0.5 #8 Acid
       - 0.1 #9 Smoke
-    loftempsSet: [ 3 ]
+    loftempsSet: [3]
     forcedTorso: 1
     stats:
-       stamina: -5
-       reactions: -10
-       firing: -15
-       strength: 40
-       bravery: 25
+      stamina: -5
+      reactions: -10
+      firing: -15
+      strength: 40
+      bravery: 25
 ###########################
 
 
@@ -320,7 +320,7 @@ armors:
       - 0.8 #7 Melee
       - 0.0 #8 Acid
       - 0.1 #9 Smoke
-    loftempsSet: [ 3 ]
+    loftempsSet: [3]
   - type: STR_GHOUL_SOLDIER_ARMOR
     spriteSheet: GHOUL_SOLDIER.PCK
     spriteInv: inventory_GHOUL_SOLDIER
@@ -332,7 +332,7 @@ armors:
     rearArmor: 20
     underArmor: 5
     damageModifier: *MetalArmorDamageModifier
-    loftempsSet: [ 3 ]
+    loftempsSet: [3]
   - type: STR_GHOUL_LEADER_ARMOR
     spriteSheet: GHOUL_LEADER.PCK
     spriteInv: inventory_GHOUL_LEADER
@@ -344,7 +344,7 @@ armors:
     rearArmor: 5
     underArmor: 5
     damageModifier: *LeatherArmorDamageModifier
-    loftempsSet: [ 3 ]
+    loftempsSet: [3]
   - type: STR_GHOUL_FERAL_ARMOR
     spriteSheet: GHOUL_FERAL.PCK
     spriteInv: inventory_GHOUL_FERAL
@@ -366,7 +366,7 @@ armors:
       - 1.5 #7 Melee
       - 0.5 #8 Acid
       - 1.0 #9 Smoke
-    loftempsSet: [ 3 ]
+    loftempsSet: [3]
   - type: STR_GHOUL_WILD_ARMOR
     spriteSheet: GHOUL_WILD.PCK
     spriteInv: inventory_GHOUL_WILD
@@ -378,7 +378,7 @@ armors:
     rearArmor: 5
     underArmor: 5
     damageModifier: *FeralGhoulDamageModifier
-    loftempsSet: [ 3 ]
+    loftempsSet: [3]
   - type: STR_GHOUL_LOST_ARMOR
     spriteSheet: GHOUL_LOST.PCK
     spriteInv: inventory_GHOUL_LOST
@@ -390,7 +390,7 @@ armors:
     rearArmor: 5
     underArmor: 5
     damageModifier: *FeralGhoulDamageModifier
-    loftempsSet: [ 3 ]
+    loftempsSet: [3]
 
   - type: STR_MUTANT_RECRUIT_ARMOR
     spriteSheet: MUTANT_RECRUIT.PCK
@@ -402,7 +402,7 @@ armors:
     sideArmor: 10
     rearArmor: 5
     underArmor: 5
-    damageModifier: 
+    damageModifier:
       - 1.0 #0 None
       - 0.8 #1 Armor Piercing
       - 1.2 #2 Incendiary
@@ -413,7 +413,7 @@ armors:
       - 1.1 #7 Melee
       - 0.2 #8 Acid
       - 0.1 #9 Smoke
-    loftempsSet: [ 3 ]
+    loftempsSet: [3]
   - type: STR_MUTANT_STRONG_ARMOR
     spriteSheet: MUTANT_STRONG.PCK
     spriteInv: inventory_MUTANT_STRONG
@@ -435,7 +435,7 @@ armors:
       - 1.1 #7 Melee
       - 0.1 #8 Acid
       - 0.1 #9 Smoke
-    loftempsSet: [ 3 ]
+    loftempsSet: [3]
   - type: STR_MUTANT_LOST_ARMOR
     spriteSheet: MUTANT_LOST.PCK
     spriteInv: inventory_MUTANT_LOST
@@ -457,7 +457,7 @@ armors:
       - 1.5 #7 Melee
       - 0.2 #8 Acid
       - 0.1 #9 Smoke
-    loftempsSet: [ 3 ]
+    loftempsSet: [3]
 
   - type: STR_ORDER_RECRUIT_ARMOR
     spriteSheet: ORDER_RECRUIT.PCK
@@ -480,7 +480,7 @@ armors:
       - 0.6 #7 Melee
       - 1.0 #8 Acid
       - 0.3 #9 Smoke
-    loftempsSet: [ 3 ]
+    loftempsSet: [3]
   - type: STR_ORDER_SOLDIER_ARMOR
     spriteSheet: ORDER_SOLDIER.PCK
     spriteInv: inventory_ORDER_SOLDIER
@@ -492,7 +492,7 @@ armors:
     rearArmor: 5
     underArmor: 5
     damageModifier: *BallisticArmorDamageModifier
-    loftempsSet: [ 3 ]
+    loftempsSet: [3]
 
   - type: STR_CHURCH_FOLLOWER_ARMOR
     spriteSheet: CHURCH_FOLLOWER.PCK
@@ -515,7 +515,7 @@ armors:
       - 1.1 #7 Melee
       - 0.8 #8 Acid
       - 0.5 #9 Smoke
-    loftempsSet: [ 3 ]
+    loftempsSet: [3]
   - type: STR_CHURCH_PRIEST_ARMOR
     spriteSheet: CHURCH_PRIEST.PCK
     spriteInv: inventory_CHURCH_PRIEST
@@ -528,7 +528,7 @@ armors:
     underArmor: 5
     drawingRoutine: 4
     damageModifier: *ChurchRobesDamageModifier
-    loftempsSet: [ 3 ]
+    loftempsSet: [3]
 
   - type: STR_RAIDER_ARMOR
     spriteSheet: RAIDER.PCK
@@ -541,7 +541,7 @@ armors:
     rearArmor: 5
     underArmor: 5
     damageModifier: *BallisticArmorDamageModifier
-    loftempsSet: [ 3 ]
+    loftempsSet: [3]
   - type: STR_RAIDER_PUNK_ARMOR
     spriteSheet: RAIDER_PUNK.PCK
     spriteInv: inventory_RAIDER_PUNK
@@ -553,7 +553,7 @@ armors:
     rearArmor: 15
     underArmor: 5
     damageModifier: *MetalArmorDamageModifier
-    loftempsSet: [ 3 ]
+    loftempsSet: [3]
   - type: STR_RAIDER_LEADER_ARMOR
     spriteSheet: RAIDER_LEADER.PCK
     spriteInv: inventory_RAIDER_LEADER
@@ -565,7 +565,7 @@ armors:
     rearArmor: 5
     underArmor: 5
     damageModifier: *LeatherArmorDamageModifier
-    loftempsSet: [ 3 ]
+    loftempsSet: [3]
 
   - type: STR_PREPPER_RECRUIT_ARMOR
     spriteSheet: PREPPER_RECRUIT.PCK
@@ -588,7 +588,7 @@ armors:
       - 1.1 #7 Melee
       - 1.0 #8 Acid
       - 1.0 #9 Smoke
-    loftempsSet: [ 3 ]
+    loftempsSet: [3]
   - type: STR_PREPPER_SOLDIER_ARMOR
     spriteSheet: PREPPER_SOLDIER.PCK
     spriteInv: inventory_PREPPER_SOLDIER
@@ -602,7 +602,7 @@ armors:
     drawingRoutine: 0
     damageModifier: *LeatherArmorDamageModifier
 
-    loftempsSet: [ 3 ]
+    loftempsSet: [3]
   - type: STR_PREPPER_LEADER_ARMOR
     spriteSheet: PREPPER_LEADER.PCK
     spriteInv: inventory_PREPPER_LEADER
@@ -614,4 +614,4 @@ armors:
     rearArmor: 25
     underArmor: 5
     damageModifier: *BallisticArmorDamageModifier
-    loftempsSet: [ 3 ]
+    loftempsSet: [3]

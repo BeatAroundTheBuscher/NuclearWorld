@@ -14,7 +14,7 @@ regions:
   - delete: STR_NORTH_ATLANTIC
   - delete: STR_SOUTH_ATLANTIC
   - delete: STR_INDIAN_OCEAN
-  
+
   - type: TESTING_SITES
     missionZones:
       -
@@ -1388,9 +1388,9 @@ regions:
         - [80.5, 80.5, -8.8, -8.8, -36]
 
   - type: STR_RESCUEABLE_SCIENTISTS_SITE_REGION
-    areas: 
+    areas:
       []
-    missionZones: 
+    missionZones:
       - - [90.26794, 449.2679, -71.86053, 75.98561]
 
 
@@ -1471,7 +1471,7 @@ regions:
   - type: STR_ARCTIC
     cost: 950000
     areas:
-      - [0, 360, -90, -70]  
+      - [0, 360, -90, -70]
     missionZones:
       -
         - [305.25, 333.125, -79.25, -75.25]
@@ -1965,7 +1965,7 @@ regions:
     cost: 500000
     missionRegion: STR_ANTARCTICA
     areas:
-      - [330, 5, 0,  15]
+      - [330, 5, 0, 15]
       - [325, 5, 15, 60]
       - [5, 55, 40, 60]
   - type: STR_INDIAN_OCEAN

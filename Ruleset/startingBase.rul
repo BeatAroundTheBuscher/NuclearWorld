@@ -32,8 +32,8 @@ startingBase:
     - type: STR_CARAVAN
       id: 1
       fuel: 9999
-      damage: 0   
-      status: STR_READY  
+      damage: 0
+      status: STR_READY
 
   randomSoldiers:
     STR_PLAYER_UNIT: 1

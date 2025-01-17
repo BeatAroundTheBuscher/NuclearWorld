@@ -262,7 +262,7 @@ ufopaedia:
     text: STR_BASIC_PROTECTION_II_UFOPAEDIA
     section: STR_KNOWLEDGE
     requires:
-    - STR_BASIC_PROTECTION_II
+      - STR_BASIC_PROTECTION_II
 
   - id: STR_SPECIALIZED_ARMOR
     type_id: 8
@@ -764,7 +764,7 @@ ufopaedia:
     section: STR_OUTFITS
     requires:
       - STR_PROTOTYPE_POWER_ARMOR
-  
+
   - id: STR_HANDCRAFTED_POWER_ARMOR
     type_id: 5
     text: STR_HANDCRAFTED_POWER_ARMOR_UFOPAEDIA
@@ -940,4 +940,3 @@ ufopaedia:
     requires:
       - STR_CONVOY
 
-    

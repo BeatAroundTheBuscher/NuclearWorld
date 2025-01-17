@@ -66,7 +66,7 @@ countries:
       - [355, 7, -50, -43] #European France
       - [8.2, 9.88, -43, -41.3] #Corsica
       - [163.6, 167, 19.9, 22.71] #New Caledonia - E of Australia
-      - [304, 308, -6.8, -2.6] #French Guiana - N of Brazil   
+      - [304, 308, -6.8, -2.6] #French Guiana - N of Brazil
   - type: STR_GERMANY
     fundingBase: 0
     fundingCap: 2

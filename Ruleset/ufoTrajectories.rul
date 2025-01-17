@@ -1,5 +1,5 @@
-﻿ 
- ufoTrajectories:
+﻿
+ufoTrajectories:
   - id: P10
     groundTimer: 0
     waypoints:

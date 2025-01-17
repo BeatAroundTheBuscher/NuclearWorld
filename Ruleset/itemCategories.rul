@@ -6,13 +6,13 @@ itemCategories:
   - type: STR_SHOTGUNS
   - type: STR_SMGS
   - type: STR_HEAVY_WEAPONS
-  - type: STR_ENERGY_WEAPONS  
+  - type: STR_ENERGY_WEAPONS
   - type: STR_LONG_RANGE
   - type: STR_SHORT_RANGE
   - type: STR_MAKESHIFT
   - type: STR_EQUIPMENT
   - type: STR_HEALTH_ITEMS
-  - type: STR_GOODS  
+  - type: STR_GOODS
   - type: STR_AMMUNITION
   - type: STR_ARMORS
   - type: STR_OTHER

@@ -14,9 +14,9 @@ extraSprites:
       460: Resources/Items/bigob_MoneyPouch.png
       470: Resources/Items/bigob_GoldInglot.png
       480: Resources/Items/bigob_CaravanCrate.png
-      490: Resources/Items/bigob_WeaponCrate.png 
+      490: Resources/Items/bigob_WeaponCrate.png
       500: Resources/Items/bigob_AmmunitionCrate.png
-      510: Resources/Items/bigob_ValuablesCrate.png 
+      510: Resources/Items/bigob_ValuablesCrate.png
       520: Resources/Items/bigob_HighTechCrate.png
       530: Resources/Items/bigob_MedicalContainer.png
 
@@ -65,20 +65,20 @@ extraSprites:
       950: Resources/Weapons/Ranged/bigob_DMR.png
       960: Resources/Weapons/Ammunition/bigob_556mmRifleMag.png
       970: Resources/Weapons/Ranged/bigob_10mmPistol.png
-      
+
 
 #################
 #### ARMORS ####
 ###############
-      
-      
+
+
       1000: Resources/Armors/Jumpsuit/bigob_JUMPSUIT.png
       1010: Resources/Armors/Leather_Suit/bigob_LEATHER_SUIT.png
       1020: Resources/Armors/Wastelander_Armor/bigob_WASTELANDER_ARMOR.png
       1030: Resources/Armors/Prototype_Power_Armor/bigob_ENFORCER.png
       1040: Resources/Armors/Hazmat_Armor/bigob_HAZMAT_ARMOR.png
-      1050: Resources/Armors/Handcrafted_Power_Armor/bigobs_MK1_POWER_ARMOR.png  
-      1060: Resources/Armors/Power_Armor/bigob_PowerArmor.png    
+      1050: Resources/Armors/Handcrafted_Power_Armor/bigobs_MK1_POWER_ARMOR.png
+      1060: Resources/Armors/Power_Armor/bigob_PowerArmor.png
 
 #################
 ##### UNITS ####
@@ -94,7 +94,7 @@ extraSprites:
       1610: Resources/Races/Ghouls/Ghoul_Lost/bigob_GHOUL_LOST.png
 
       1620: Resources/Races/Mutants/Mutant_Recruit/bigob_MUTANT_RECRUIT.png
-      #1630: Resources/Races/Mutants/Mutant_Regular/bigob_MUTANT_REGULAR.png     
+      #1630: Resources/Races/Mutants/Mutant_Regular/bigob_MUTANT_REGULAR.png
       1640: Resources/Races/Mutants/Mutant_Strong/bigob_MUTANT_STRONG.png
       1650: Resources/Races/Mutants/Mutant_Lost/bigob_MUTANT_LOST.png
 
@@ -129,11 +129,11 @@ extraSprites:
       460: Resources/Items/floorob_MoneyPouch.png
       470: Resources/Items/floorob_GoldInglot.png
       480: Resources/Items/floorob_CaravanCrate.png
-      490: Resources/Items/floorob_WeaponCrate.png 
+      490: Resources/Items/floorob_WeaponCrate.png
       500: Resources/Items/floorob_AmmunitionCrate.png
-      510: Resources/Items/floorob_ValuablesCrate.png 
+      510: Resources/Items/floorob_ValuablesCrate.png
       520: Resources/Items/floorob_HighTechCrate.png
-      530: Resources/Items/floorob_MedicalContainer.png  
+      530: Resources/Items/floorob_MedicalContainer.png
 
       540: Resources/Weapons/Ranged/floorob_GaussRifle.png
       550: Resources/Weapons/Ranged/floorob_Bozar.png
@@ -184,8 +184,8 @@ extraSprites:
 #################
 #### ARMORS ####
 ###############
-      
-      
+
+
       1000: Resources/Armors/Jumpsuit/floorob_JUMPSUIT.png
       1010: Resources/Armors/Leather_Suit/floorob_LEATHER_SUIT.png
       1020: Resources/Armors/Wastelander_Armor/floorob_WASTELANDER_ARMOR.png
@@ -208,7 +208,7 @@ extraSprites:
       1610: Resources/Races/Ghouls/Ghoul_Lost/floorob_GHOUL_LOST.png
 
       1620: Resources/Races/Mutants/Mutant_Recruit/floorob_MUTANT_RECRUIT.png
-      #1630: Resources/Races/Mutants/Mutant_Regular/floorob_MUTANT_REGULAR.png     
+      #1630: Resources/Races/Mutants/Mutant_Regular/floorob_MUTANT_REGULAR.png
       1640: Resources/Races/Mutants/Mutant_Strong/floorob_MUTANT_STRONG.png
       1650: Resources/Races/Mutants/Mutant_Lost/floorob_MUTANT_LOST.png
 
@@ -606,7 +606,7 @@ extraSprites:
     height: 200
     singleImage: true
     files:
-      0: Resources/Armors/Wastelander_Armor/inventory_FEMALE_WASTELANDER_ARMOR.png 
+      0: Resources/Armors/Wastelander_Armor/inventory_FEMALE_WASTELANDER_ARMOR.png
 
   - type: inventory_HAZMAT_ARMOR.SPK
     width: 320

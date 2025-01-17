@@ -1087,7 +1087,7 @@ en-US:
   STR_OUTFITS: "OUTFITS"
   STR_AMMUNITION_UC: "AMMUNITION"
   STR_VEHICLES: "VEHICLES"
-  
+
   MAP_VILLAGE: "Settlement"
   MAP_URBAN_RUINS: "City Ruins"
   MAP_NUKEZONE: "Wasteland"
@@ -1225,7 +1225,7 @@ en-US:
   STR_SETTLERS_UFOPAEDIA: "The Settlers of new world are not trusting anyone. It's a miracle they even want to talk to us... but they don't want to share much information with us. Perhaps we need to... convince them."
   STR_PREPPERS_UFOPAEDIA: "We are not the only people that survived The War. There are many small shelters and abandoned facilities habited by the Preppers. They don't want to talk with anyone. They lost the trust they had together with the bombing of the world. Preppers are well equipped and dangerous. But probably... they also have a lot of resources. Maybe it's going to be a good idea to... check what they have... by force. We can spend some time getting clues about them."
   STR_LOCATING_PREPPERS_SITES_UFOPAEDIA: "So, we are using our contacts with the Settlers to try to track any clue about the so-called Preppers. They seem pretty slippery, appearing from nowhere, raiding a bit here and there, then vanishing in the air. Based on what we heard about them, their modus operandi seems quite similar to ours when we collect resources. We hope our contacts are able to get more than rumours and an actual location for us to pay them a visit."
-  STR_RAIDING_PREPPERS_SITES_UFOPAEDIA: "Oh, boy. It took us a lot of time and effort to find them, but our reliable contacts managed to pinpoint several of their hideouts. It seems many of them barricated themselves inside old labs and military bases, which are potential sources of high-tech assets and good equipment. It was an open whisper, with many denying their existance as mere rumours, but now we are able to wait for them to become visible, and then raid them to seize their tech for us." 
+  STR_RAIDING_PREPPERS_SITES_UFOPAEDIA: "Oh, boy. It took us a lot of time and effort to find them, but our reliable contacts managed to pinpoint several of their hideouts. It seems many of them barricated themselves inside old labs and military bases, which are potential sources of high-tech assets and good equipment. It was an open whisper, with many denying their existance as mere rumours, but now we are able to wait for them to become visible, and then raid them to seize their tech for us."
   STR_CITIZENS_UFOPAEDIA: "We don't know much about The Citizens. They survived somehow the War. We were unable to make contact with them, rumor has it they have access to old technology. The Settlers are saying that the flying object we can see from time to time belongs to The Citizens. These people ignore everyone until you stay on their way. Equipped with powerful weapons and armors they are able to exterminate anyone."
   STR_RECRUITABLE_WORKERS_UFOPAEDIA: "Thanks to our contacts with The Settlers we can now hire more people willing to do heavy work for us."
   STR_RESCUEABLE_SCIENTISTS_UFOPAEDIA: "The Settlers will send to us scientists, under one condition: we have to do the dirty work. They will tell us from time to time where are their enemies. In exchange for clearing the sites they will reward us with research power."
@@ -1334,7 +1334,7 @@ en-US:
   STR_REVOLVER_UFOPAEDIA: "Powerful handgun, has strong recoil and kicks like a mule. Fast fire it is not recommended in novice shooters, as the weapon becomes difficult to control if fired in quick succession."
   STR_REVOLVER_CLIP: ".44 Magnum Revolver Ammo"
   STR_REVOLVER_CLIP_UFOPAEDIA: "Ol' reliable ammo for revolvers, widely used in ancient handguns (it was designed in the early 20th Century!). Very powerful, it has a very heavy bullet with lots of kinetic energy."
-  
+
   STR_WANDERER_SITE: "Wanderer Activity"
   STR_WANDERER_SITE_BRIEFING: "Local Settlers told us about a group of fried-brains causing troubles near their village, and asked us to take care of the matter. Proceed swift and shortly to dispose of the poor lads."
   STR_WANDERER_SITE_ALERT: "Wanderer activity reported"
@@ -1443,7 +1443,7 @@ en-US:
   STR_ORDER_VS_RAIDERS_BATTLE_SITE_BRIEFING: "Leader, the High Command send us orders to join a nearby company tasked to search and destroy a bandit gang disrupting the faction operations in the area. Support our allies and eliminate the scum. Go go go!"
   STR_ORDER_VS_RAIDERS_BATTLE_SITE_ALERT: "The Order attacking the Raiders"
   STR_ORDER_VS_RAIDERS_BATTLE_SITE_MARKER_NAME: "ORDER ACTIVITY-{0}"
-  
+
   STR_MILLITARY_BASE_SITE: "Military Base Expedition"
   STR_MILLITARY_BASE_SITE_BRIEFING: "Military bases are the best places where to find high level military items, but also the most dangerous... we're no the only ones with that in mind. It is very likely there's a Prepper presence inside the base. You could make a quick loot recovery and retreat or try to eliminate all the other scavengers to get the chance of carefully sweeping the base after the battle."
   STR_MILLITARY_BASE_SITE_ALERT: "Abandoned Military Base found"
@@ -1471,14 +1471,14 @@ en-US:
   STR_FINAL_ONSLAUGHT_SITE_BRIEFING: "Well, this is it. Turns out we're the most prepared faction in the whole Wasteland. At least that's what people say. We gotta take this matter in our hands, the Horde grew incontrollable and we're the only thing stopping them to become the largest threat to the Settlers. This is so serious, even unlikely allies have joined us. We must defeat them here and now."
   STR_FINAL_ONSLAUGHT_SITE_ALERT: "Huge Horde detected en route to our Shelter!"
   STR_FINAL_ONSLAUGHT_SITE_MARKER_NAME: "THE FINAL BATTLE"
-  
+
   STR_WANDERER: "Wanderer"
   STR_WANDERER_PROPHET: "Wanderer Prophet"
   STR_WANDERER_SCIENTIST: "Wanderer Scientific"
   STR_WANDERER_SOLDIER: "Wanderer Soldier"
   STR_WANDERER_ENGINEER: "Wanderer Engineer "
   STR_WANDERER_MEDIC: "Wanderer Medic"
-  
+
   STR_FERAL_MUTANT_HORDE: "Feral and Lost Horde"
   STR_FERAL_GHOUL: "Feral Ghouls"
   STR_GHOUL_LOST: "Lost Ghoul"
@@ -1494,14 +1494,14 @@ en-US:
   STR_GHOUL_RECRUIT_ARMOR: "Ghoul Makeshift Armor"
   STR_GHOUL_SOLDIER_ARMOR: "Ghoul Standard Battledress"
   STR_GHOUL_LEADER_ARMOR: "Ghoul Officer Leather Suit"
-  
+
   STR_GHOUL_RECRUIT_CORPSE: "Ghoul Irregular Warrior Corpse"
   STR_GHOUL_SOLDIER_CORPSE: "Ghoul Regular Soldier Corpse"
   STR_GHOUL_LEADER_CORPSE: "Ghould Leader Corpse"
   STR_GHOUL_FERAL_CORPSE: "Feral Ghoul Corpse"
   STR_GHOUL_WILD_CORPSE: "Wild Ghoul Corpse"
   STR_GHOUL_LOST_CORPSE: "Lost Ghoul Corpse"
-  
+
   STR_LOST_MUTANT: "Lost Mutants"
   STR_MUTANT_LOST: "Lost Mutant"
   STR_MUTANT_ANGRY: "Insane Mutant"
@@ -1513,11 +1513,11 @@ en-US:
   STR_MUTANT_LOST_ARMOR: "Putrid Mutant Skin"
   STR_MUTANT_STRONG_ARMOR: "Super Mutant Attire"
   STR_MUTANT_RECRUIT_ARMOR: "Regular Mutant Attire"
-  
+
   STR_MUTANT_RECRUIT_CORPSE: "Normal Mutant Corpse"
   STR_MUTANT_STRONG_CORPSE: "Super Mutant Corpse"
   STR_MUTANT_LOST_CORPSE: "Putrid Mutant Corpse"
-  
+
   STR_CHURCH: "Church of Apocalypse"
   STR_CHURCH_BISHOP: "Church Bishop"
   STR_CHURCH_PRIEST: "Church Priest"
@@ -1525,13 +1525,13 @@ en-US:
   STR_CHURCH_FOLLOWER: "Church Follower"
   STR_CHURCH_PRIEST_ARMOR: "Church High Ranking Robes"
   STR_CHURCH_FOLLOWER_ARMOR: "Church Low Ranking Robes"
-  
+
   STR_CHURCH_FOLLOWER_CORPSE: "Church Low Ranking Corpse"
   STR_CHURCH_PRIEST_CORPSE: "Church High Ranking Corpse"
   STR_CHURCH_BATTLE_LEADER_NPC: "Church Exorcist Envoy"
   STR_CHURCH_RIFLEMAN_NPC: "Church Ranged Purger"
   STR_CHURCH_CQB_NPC: "Church Melee Purger"
-  
+
   STR_RAIDERS: "Raiders"
   STR_RAIDERS_PUNK: "Raider Punk"
   STR_RAIDERS_COMMANDER: "Raider Big Boss"
@@ -1540,14 +1540,14 @@ en-US:
   STR_RAIDER_PUNK_ARMOR: "Raider Body Armor"
   STR_RAIDER_LEADER_ARMOR: "Raider Top Guy Outfit"
   STR_RAIDER_ARMOR: "Raider Clothing"
-  
+
   STR_RAIDER_CORPSE: "Raider Corpse"
   STR_RAIDER_PUNK_CORPSE: "Armored Raider Corpse"
   STR_RAIDER_LEADER_CORPSE: "Raider Leader Corpse"
   STR_RAIDERS_BATTLE_LEADER_NPC: "Raiders' Top Guy"
   STR_RAIDERS_RIFLEMAN_NPC: "Raider Huntsman"
   STR_RAIDERS_CQB_NPC: "Raider Thug"
-  
+
   STR_ORDER: "The Order"
   STR_ORDER_COMMANDER: "Order Colonel"
   STR_ORDER_LEADER: "Order Captain"
@@ -1555,13 +1555,13 @@ en-US:
   STR_ORDER_SOLDIER: "Order Soldier"
   STR_ORDER_RECRUIT_ARMOR: "Order Conscript Gear"
   STR_ORDER_SOLDIER_ARMOR: "Order Soldier Battledress"
-  
+
   STR_ORDER_RECRUIT_CORPSE: "Conscript Gear Corpse"
   STR_ORDER_SOLDIER_CORPSE: "Soldier Battledress Corpse"
   STR_ORDER_BATTLE_LEADER_NPC: "Order Field Officer"
   STR_ORDER_RIFLEMAN_NPC: "Order Rifleman"
   STR_ORDER_CQB_NPC: "Order Stormtrooper"
-  
+
   STR_PREPPER: "Prepper Survivalists "
   STR_PREPPER_COMMANDER: "Prepper Overseer"
   STR_PREPPER_LEADER: "Prepper Leader"
@@ -1570,18 +1570,18 @@ en-US:
   STR_PREPPER_LEADER_ARMOR: "Tactical Battledress"
   STR_PREPPER_SOLDIER_ARMOR: "Rebel Clothing"
   STR_PREPPER_RECRUIT_ARMOR: "Guerrilla Outfit"
-  
+
   STR_PREPPER_RECRUIT_CORPSE: "Guerrilla Corpse"
   STR_PREPPER_SOLDIER_CORPSE: "Rebel Corpse"
   STR_PREPPER_LEADER_CORPSE: "Tactical Battledress Corpse"
-  
+
   STR_CARAVAN: "RECON DISPATCH"
   STR_CARAVAN_UFOPEDIA: "Fast and easy to maintain, the rugged motorcycles are our primary transport means."
   STR_LARGE_CARAVAN: "TACTICAL VEHICLE"
   STR_LARGE_CARAVAN_UFOPEDIA: "Old but still reliable, the Humvee offers protection and a bit of comfort"
   STR_CONVOY: "CONVOY"
   STR_CONVOY_UFOPEDIA: "A big, repurposed truck. Transports more soldiers and more equipment"
-  
+
   STR_MELEE_WEAPONS: "Melee Weapons"
   STR_BOWS_CROSSBOWS: "Bows & Crossbows"
   STR_RIFLES: "Rifles"
@@ -1602,7 +1602,7 @@ en-US:
   STR_VALUABLES: "Valuables"
   STR_THROWABLES: "Throwables"
   STR_UNPACKING: "Unpacking"
-  
+
   STR_USA: "United Settlements"
   STR_RUSSIA: "The Cossack Order"
   STR_UK: "New Union"
@@ -1638,13 +1638,12 @@ en-US:
   STR_INDONESIA: "Island Alliance"
   STR_EAST_GERMANY: "EAST GERMANY"
   STR_WEST_GERMANY: "WEST GERMANY"
-  
+
   STR_STORY_1_EVENT: "A warning from the Settlers"
   STR_STORY_1_EVENT_DESCRIPTION: "Our contacts within the Settlers warn us about and increase on Lost Mutants and Feral Ghouls, even in zones previously clean of them. There was a report from {0}, where a nearby decaying nuclear plant suddenly explode. An isolated incident? Part of a larger danger? We don't know yet, but we should keep an eye on this."
   STR_STORY_2_EVENT: "Aggression escalating"
   STR_STORY_2_EVENT_DESCRIPTION: "More Ferals and Lost are spotted actively attacking civilian settlements and outposts. They're becoming more and more aggressive. This have increased tensions within mixed race villages, where distrust and anger between humans and ghouls led to several violent incidents."
   STR_STORY_3_EVENT: "Dangerous hordes in our area"
   STR_STORY_3_EVENT_DESCRIPTION: "Distrust between races led to open hostilities, as settlements began conducting military actions against hordes of Ferals and Lost. In some cases, this became a three-front-war, with 'normal' Ghouls and Mutants caught in the middle. Large herds of insane individuals are razing entire communities. There are reports of some heading to our location. We should expect a rise of their activity any time soon, it is clear they're going to attack us."
-  
-  
-  
+
+

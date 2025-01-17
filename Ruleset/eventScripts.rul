@@ -33,7 +33,7 @@ eventScripts:
 
   - type: STR_STORY_1_EVENT_SCRIPT
     oneTimeSequentialEvents:
-     - STR_STORY_1_EVENT
+      - STR_STORY_1_EVENT
     firstMonth: 10
     lastMonth: 11
     minDifficulty: 0
@@ -42,7 +42,7 @@ eventScripts:
 
   - type: STR_STORY_2_EVENT_SCRIPT
     oneTimeSequentialEvents:
-     - STR_STORY_2_EVENT
+      - STR_STORY_2_EVENT
     firstMonth: 13
     lastMonth: 14
     minDifficulty: 0
@@ -51,7 +51,7 @@ eventScripts:
 
   - type: STR_STORY_3_EVENT_SCRIPT
     oneTimeSequentialEvents:
-     - STR_STORY_3_EVENT
+      - STR_STORY_3_EVENT
     firstMonth: 16
     lastMonth: 17
     minDifficulty: 0

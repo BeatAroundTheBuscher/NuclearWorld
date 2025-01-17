@@ -36,20 +36,20 @@ manufacture:
   - delete: STR_AVENGER
 
 
-#     ___   ___   __ __  ____  ____  ___ ___    ___  ____   ______ 
+#     ___   ___   __ __  ____  ____  ___ ___    ___  ____   ______
 #    /  _] /   \ |  |  ||    ||    \|   |   |  /  _]|    \ |      |
 #   /  [_ |     ||  |  | |  | |  o  ) _   _ | /  [_ |  _  ||      |
 #  |    _]|  Q  ||  |  | |  | |   _/|  \_/  ||    _]|  |  ||_|  |_|
-#  |   [_ |     ||  :  | |  | |  |  |   |   ||   [_ |  |  |  |  |  
-#  |     ||     ||     | |  | |  |  |   |   ||     ||  |  |  |  |  
-#  |_____| \__,_| \__,_||____||__|  |___|___||_____||__|__|  |__|  
-#                                                                  
+#  |   [_ |     ||  :  | |  | |  |  |   |   ||   [_ |  |  |  |  |
+#  |     ||     ||     | |  | |  |  |   |   ||     ||  |  |  |  |
+#  |_____| \__,_| \__,_||____||__|  |___|___||_____||__|__|  |__|
+#
 
   - name: STR_BANDAGE
     category: STR_EQUIPMENT
-    requiresBaseFunc: [BIOLAB] 
+    requiresBaseFunc: [BIOLAB]
     requires:
-      - "STR_BASIC_MEDICINE"     
+      - "STR_BASIC_MEDICINE"
     space: 1
     time: 1
     cost: 0
@@ -60,7 +60,7 @@ manufacture:
     requires:
       - "STR_BASIC_STIMULANT"
     requiredItems:
-        STR_STIMULANT_HERB: 1 
+      STR_STIMULANT_HERB: 1
     space: 1
     time: 2
     cost: 0
@@ -69,39 +69,39 @@ manufacture:
     category: STR_EQUIPMENT
     requiresBaseFunc: [BIOLAB]
     requires:
-      - "STR_STIMPAK" 
+      - "STR_STIMPAK"
     requiredItems:
-        STR_HEALING_HERB: 1
+      STR_HEALING_HERB: 1
     space: 1
     time: 10
     cost: 0
 
-    
 
 
-#   ___ ___    ___  _        ___    ___ 
+
+#   ___ ___    ___  _        ___    ___
 #  |   |   |  /  _]| |      /  _]  /  _]
-#  | _   _ | /  [_ | |     /  [_  /  [_ 
+#  | _   _ | /  [_ | |     /  [_  /  [_
 #  |  \_/  ||    _]| |___ |    _]|    _]
-#  |   |   ||   [_ |     ||   [_ |   [_ 
+#  |   |   ||   [_ |     ||   [_ |   [_
 #  |   |   ||     ||     ||     ||     |
 #  |___|___||_____||_____||_____||_____|
-#                                       
+#
 
   - name: STR_SHIV
     category: STR_MELEE_WEAPONS
-    requiresBaseFunc: [WORKSHOP] 
+    requiresBaseFunc: [WORKSHOP]
     requires:
-      - "STR_BASIC_WEAPONS"      
+      - "STR_BASIC_WEAPONS"
     space: 1
     time: 1
     cost: 0
 
   - name: STR_SPEAR
     category: STR_MELEE_WEAPONS
-    requiresBaseFunc: [WORKSHOP] 
+    requiresBaseFunc: [WORKSHOP]
     requires:
-      - "STR_BASIC_WEAPONS"          
+      - "STR_BASIC_WEAPONS"
     space: 1
     time: 3
     cost: 0
@@ -110,7 +110,7 @@ manufacture:
     category: STR_MELEE_WEAPONS
     requiresBaseFunc: [WORKSHOP]
     requires:
-      - "STR_BASIC_WEAPONS"     
+      - "STR_BASIC_WEAPONS"
     space: 1
     time: 2
     cost: 0
@@ -119,43 +119,43 @@ manufacture:
     category: STR_MELEE_WEAPONS
     requiresBaseFunc: [WORKSHOP]
     requires:
-      - "STR_BASIC_WEAPONS"     
+      - "STR_BASIC_WEAPONS"
     space: 1
     time: 5
     cost: 0
 
 
-#   ____    ___   __    __  _____              
-#  |    \  /   \ |  |__|  |/ ___/              
-#  |  o  )|     ||  |  |  (   \_               
-#  |     ||  O  ||  |  |  |\__  |              
-#  |  O  ||     ||  `  '  |/  \ |              
-#  |     ||     | \      / \    |              
-#  |_____| \___/   \_/\_/   \___|              
-#                                              
+#   ____    ___   __    __  _____
+#  |    \  /   \ |  |__|  |/ ___/
+#  |  o  )|     ||  |  |  (   \_
+#  |     ||  O  ||  |  |  |\__  |
+#  |  O  ||     ||  `  '  |/  \ |
+#  |     ||     | \      / \    |
+#  |_____| \___/   \_/\_/   \___|
+#
 #   __ __         ____    ___   __    __  _____
 #  |  |  |       |    \  /   \ |  |__|  |/ ___/
-#  |  |  | _____ |  o  )|     ||  |  |  (   \_ 
+#  |  |  | _____ |  o  )|     ||  |  |  (   \_
 #  |_   _||     ||     ||  O  ||  |  |  |\__  |
 #  |     ||_____||  O  ||     ||  `  '  |/  \ |
 #  |  |  |       |     ||     | \      / \    |
 #  |__|__|       |_____| \___/   \_/\_/   \___|
-#                                              
+#
 
   - name: STR_BOW
     category: STR_BOWS_CROSSBOWS
-    requiresBaseFunc: [WORKSHOP] 
+    requiresBaseFunc: [WORKSHOP]
     requires:
-      - "STR_BASIC_WEAPONS"          
+      - "STR_BASIC_WEAPONS"
     space: 1
     time: 20
     cost: 0
 
   - name: STR_CROSSBOW
     category: STR_BOWS_CROSSBOWS
-    requiresBaseFunc: [WORKSHOP] 
+    requiresBaseFunc: [WORKSHOP]
     requires:
-      - "STR_BASIC_WEAPONS"          
+      - "STR_BASIC_WEAPONS"
     space: 1
     time: 25
     cost: 0
@@ -163,83 +163,83 @@ manufacture:
 
 #   ____   ____  _____  _        ___  _____
 #  |    \ |    ||     || |      /  _]/ ___/
-#  |  D  ) |  | |   __|| |     /  [_(   \_ 
+#  |  D  ) |  | |   __|| |     /  [_(   \_
 #  |    /  |  | |  |_  | |___ |    _]\__  |
 #  |    \  |  | |   _] |     ||   [_ /  \ |
 #  |  .  \ |  | |  |   |     ||     |\    |
 #  |__|\_||____||__|   |_____||_____| \___|
-#                                          
+#
 
   - name: STR_PIPE_RIFLE
     category: STR_RIFLES
-    requiresBaseFunc: [WORKSHOP]  
+    requiresBaseFunc: [WORKSHOP]
     requires:
-      - "STR_GUNPOWDER"         
+      - "STR_GUNPOWDER"
     space: 1
     time: 30
     cost: 0
 
 
-#    ____  ___ ___  ___ ___   ___  
-#   /    ||   |   ||   |   | /   \ 
+#    ____  ___ ___  ___ ___   ___
+#   /    ||   |   ||   |   | /   \
 #  |  o  || _   _ || _   _ ||     |
 #  |     ||  \_/  ||  \_/  ||  O  |
 #  |  _  ||   |   ||   |   ||     |
 #  |  |  ||   |   ||   |   ||     |
-#  |__|__||___|___||___|___| \___/ 
-#                                  
+#  |__|__||___|___||___|___| \___/
+#
 
   - name: STR_BOW_ARROWS
     category: STR_AMMUNITION
-    requiresBaseFunc: [WORKSHOP]  
+    requiresBaseFunc: [WORKSHOP]
     requires:
-      - "STR_BASIC_WEAPONS"         
+      - "STR_BASIC_WEAPONS"
     space: 1
     time: 1
     cost: 0
 
   - name: STR_CROSSBOW_BELTS
     category: STR_AMMUNITION
-    requiresBaseFunc: [WORKSHOP]   
+    requiresBaseFunc: [WORKSHOP]
     requires:
-      - "STR_BASIC_WEAPONS"        
+      - "STR_BASIC_WEAPONS"
     space: 1
     time: 1
     cost: 0
 
   - name: STR_STONES
     category: STR_AMMUNITION
-    requiresBaseFunc: [WORKSHOP]  
+    requiresBaseFunc: [WORKSHOP]
     requires:
-      - "STR_BASIC_WEAPONS"         
+      - "STR_BASIC_WEAPONS"
     space: 1
     time: 1
     cost: 0
 
   - name: STR_10MM
     category: STR_AMMUNITION
-    requiresBaseFunc: [WORKSHOP]  
+    requiresBaseFunc: [WORKSHOP]
     requires:
-      - "STR_GUNPOWDER"         
+      - "STR_GUNPOWDER"
     space: 1
     time: 3
     cost: 0
 
 
-#    ___   ______  __ __    ___  ____  
-#   /   \ |      ||  |  |  /  _]|    \ 
+#    ___   ______  __ __    ___  ____
+#   /   \ |      ||  |  |  /  _]|    \
 #  |     ||      ||  |  | /  [_ |  D  )
-#  |  O  ||_|  |_||  _  ||    _]|    / 
-#  |     |  |  |  |  |  ||   [_ |    \ 
+#  |  O  ||_|  |_||  _  ||    _]|    /
+#  |     |  |  |  |  |  ||   [_ |    \
 #  |     |  |  |  |  |  ||     ||  .  \
 #   \___/   |__|  |__|__||_____||__|\_|
-#                                      
+#
 
   - name: STR_EDIBLE_MUSHROOM
     category: STR_OTHER
     requiresBaseFunc: [FARM]
     requires:
-      - "STR_EDIBLE_MUSHROOM"     
+      - "STR_EDIBLE_MUSHROOM"
     space: 1
     time: 1
     cost: 0
@@ -248,7 +248,7 @@ manufacture:
     category: STR_OTHER
     requiresBaseFunc: [FARM]
     requires:
-      - "STR_STIMULANT_HERB"     
+      - "STR_STIMULANT_HERB"
     space: 1
     time: 5
     cost: 0
@@ -257,7 +257,7 @@ manufacture:
     category: STR_OTHER
     requiresBaseFunc: [FARM]
     requires:
-      - "STR_HEALING_HERB"     
+      - "STR_HEALING_HERB"
     space: 1
     time: 5
     cost: 0
@@ -266,7 +266,7 @@ manufacture:
     category: STR_OTHER
     requiresBaseFunc: [DRILL]
     requires:
-      - "STR_DRILL"     
+      - "STR_DRILL"
     space: 1
     time: 5
     cost: 0
@@ -275,24 +275,24 @@ manufacture:
   - name: STR_ANIMAL_SKIN
     category: STR_OTHER
     requires:
-      - STR_SKINNING    
+      - STR_SKINNING
     space: 1
     time: 12
     cost: 0
 
 #    ____  ____   ___ ___   ___   ____    _____
 #   /    ||    \ |   |   | /   \ |    \  / ___/
-#  |  o  ||  D  )| _   _ ||     ||  D  )(   \_ 
+#  |  o  ||  D  )| _   _ ||     ||  D  )(   \_
 #  |     ||    / |  \_/  ||  O  ||    /  \__  |
 #  |  _  ||    \ |   |   ||     ||    \  /  \ |
 #  |  |  ||  .  \|   |   ||     ||  .  \ \    |
 #  |__|__||__|\_||___|___| \___/ |__|\_|  \___|
-#                                              
+#
   - name: STR_LEATHER_ARMOR
     category: STR_ARMORS
     requiresBaseFunc: [WORKSHOP]
     requires:
-      - "STR_BASIC_PROTECTION" 
+      - "STR_BASIC_PROTECTION"
     requiredItems:
       STR_ANIMAL_SKIN: 2
       STR_IRON_SCRAPS: 2
@@ -316,7 +316,7 @@ manufacture:
     category: STR_ARMORS
     requiresBaseFunc: [WORKSHOP]
     requires:
-      - "STR_SPECIALIZED_ARMOR" 
+      - "STR_SPECIALIZED_ARMOR"
     space: 1
     time: 144
     cost: 0
@@ -328,7 +328,7 @@ manufacture:
     category: STR_ARMORS
     requiresBaseFunc: [WORKSHOP]
     requires:
-      - "STR_SPECIALIZED_ARMOR" 
+      - "STR_SPECIALIZED_ARMOR"
     space: 1
     time: 144
     cost: 0
@@ -339,12 +339,12 @@ manufacture:
 
 #   ______  __ __  ____   ___   __    __   ____  ____   _        ___  _____
 #  |      ||  |  ||    \ /   \ |  |__|  | /    ||    \ | |      /  _]/ ___/
-#  |      ||  |  ||  D  )     ||  |  |  ||  o  ||  o  )| |     /  [_(   \_ 
+#  |      ||  |  ||  D  )     ||  |  |  ||  o  ||  o  )| |     /  [_(   \_
 #  |_|  |_||  _  ||    /|  O  ||  |  |  ||     ||     || |___ |    _]\__  |
 #    |  |  |  |  ||    \|     ||  `  '  ||  _  ||  O  ||     ||   [_ /  \ |
 #    |  |  |  |  ||  .  \     | \      / |  |  ||     ||     ||     |\    |
 #    |__|  |__|__||__|\_|\___/   \_/\_/  |__|__||_____||_____||_____| \___|
-#                                                                          
+#
 
   - name: STR_GUNPOWDER_GRENADE
     category: STR_THROWABLES
@@ -367,21 +367,21 @@ manufacture:
 
 #   ____     ___ __    __   ____  ____   ___   _____
 #  |    \   /  _]  |__|  | /    ||    \ |   \ / ___/
-#  |  D  ) /  [_|  |  |  ||  o  ||  D  )|    (   \_ 
+#  |  D  ) /  [_|  |  |  ||  o  ||  D  )|    (   \_
 #  |    / |    _]  |  |  ||     ||    / |  D  \__  |
 #  |    \ |   [_|  `  '  ||  _  ||    \ |     /  \ |
 #  |  .  \|     |\      / |  |  ||  .  \|     \    |
 #  |__|\_||_____| \_/\_/  |__|__||__|\_||_____|\___|
-#                                                   
+#
 
   - name: STR_CARAVAN_CRATE
-    category: STR_UNPACKING   
+    category: STR_UNPACKING
     space: 1
     time: 24
     cost: 0
     producedItems: {} # empty
     requiredItems:
-        STR_CARAVAN_CRATE: 1
+      STR_CARAVAN_CRATE: 1
     randomProducedItems:
       -
         - 20
@@ -389,7 +389,7 @@ manufacture:
           STR_EDIBLE_MUSHROOM: 5
           STR_PIPE_RIFLE: 1
           STR_10MM: 2
-      -       
+      -
         - 20
         - STR_IRON_SCRAPS: 5
           STR_EDIBLE_MUSHROOM: 5
@@ -443,23 +443,23 @@ manufacture:
           STR_LEATHER_ARMOR: 1
 
   - name: STR_WEAPON_CRATE
-    category: STR_UNPACKING   
+    category: STR_UNPACKING
     space: 1
     time: 24
     cost: 0
     producedItems: {} # empty
     requiredItems:
-        STR_WEAPON_CRATE: 1
+      STR_WEAPON_CRATE: 1
     randomProducedItems:
       -
         - 20
         - STR_PIPE_RIFLE: 2
           STR_10MM: 4
-      -       
+      -
         - 20
         - STR_MAKESHIFT_PISTOL: 2
           STR_10MM: 4
-      -       
+      -
         - 20
         - STR_10MM_PISTOL: 2
           STR_10MM: 4
@@ -505,18 +505,18 @@ manufacture:
           STR_REVOLVER_CLIP: 2
 
   - name: STR_AMMUNITION_CRATE
-    category: STR_UNPACKING   
+    category: STR_UNPACKING
     space: 1
     time: 12
     cost: 0
     producedItems: {} # empty
     requiredItems:
-        STR_AMMUNITION_CRATE: 1
+      STR_AMMUNITION_CRATE: 1
     randomProducedItems:
       -
         - 20
         - STR_10MM: 8
-      -       
+      -
         - 20
         - STR_10MM: 8
       -
@@ -531,33 +531,33 @@ manufacture:
         - STR_308_RIFLE_CLIP: 4
       -
         - 20
-        - STR_PREWAR_SHOTGUN_SHELLS: 4     
+        - STR_PREWAR_SHOTGUN_SHELLS: 4
       -
         - 10
-        - STR_MICROFUSION_CELLS: 2   
+        - STR_MICROFUSION_CELLS: 2
       -
         - 10
-        - STR_PLASMA_CARTRIDGE: 2  
+        - STR_PLASMA_CARTRIDGE: 2
       -
         - 20
-        - STR_556MM_RIFLE_MAG: 4  
+        - STR_556MM_RIFLE_MAG: 4
       -
         - 20
-        - STR_556MM_RIFLE_CLIP: 4 
+        - STR_556MM_RIFLE_CLIP: 4
 
   - name: STR_VALUABLES_CRATE
-    category: STR_UNPACKING   
+    category: STR_UNPACKING
     space: 1
     time: 24
     cost: 0
     producedItems: {} # empty
     requiredItems:
-        STR_VALUABLES_CRATE: 1
+      STR_VALUABLES_CRATE: 1
     randomProducedItems:
       -
         - 20
         - STR_POUCH_OF_MONEY: 3
-      -       
+      -
         - 20
         - STR_BAG_OF_MONEY: 2
       -
@@ -565,19 +565,19 @@ manufacture:
         - STR_GOLD_INGOT: 1
 
   - name: STR_HIGH_TECH_CRATE
-    category: STR_UNPACKING   
+    category: STR_UNPACKING
     space: 1
     time: 144
     cost: 0
     producedItems: {} # empty
     requiredItems:
-        STR_HIGH_TECH_CRATE: 1
+      STR_HIGH_TECH_CRATE: 1
     randomProducedItems:
       -
         - 20
         - STR_LASER_RIFLE: 1
           STR_MICROFUSION_CELLS: 2
-      -       
+      -
         - 20
         - STR_PLASMA_GUN: 1
           STR_PLASMA_CARTRIDGE: 2
@@ -605,18 +605,18 @@ manufacture:
           STR_2MM_EC_GAUSS_ROUNDS: 1
 
   - name: STR_MEDICAL_CRATE
-    category: STR_UNPACKING   
+    category: STR_UNPACKING
     space: 1
     time: 12
     cost: 0
     producedItems: {} # empty
     requiredItems:
-        STR_MEDICAL_CRATE: 1
+      STR_MEDICAL_CRATE: 1
     randomProducedItems:
       -
         - 20
         - STR_STIMPAK: 2
-      -       
+      -
         - 20
         - STR_MEGA_STIMPAK: 1
       -
@@ -625,36 +625,36 @@ manufacture:
           STR_HEALING_HERB: 4
 
 
-#   _____  ______ _____   _____  ____  _   _ _   _ ______ _      
-#  |  __ \|  ____|  __ \ / ____|/ __ \| \ | | \ | |  ____| |     
-#  | |__) | |__  | |__) | (___ | |  | |  \| |  \| | |__  | |     
-#  |  ___/|  __| |  _  / \___ \| |  | | . ` | . ` |  __| | |     
-#  | |    | |____| | \ \ ____) | |__| | |\  | |\  | |____| |____ 
+#   _____  ______ _____   _____  ____  _   _ _   _ ______ _
+#  |  __ \|  ____|  __ \ / ____|/ __ \| \ | | \ | |  ____| |
+#  | |__) | |__  | |__) | (___ | |  | |  \| |  \| | |__  | |
+#  |  ___/|  __| |  _  / \___ \| |  | | . ` | . ` |  __| | |
+#  | |    | |____| | \ \ ____) | |__| | |\  | |\  | |____| |____
 #  |_|    |______|_|  \_\_____/ \____/|_| \_|_| \_|______|______|
-                                                               
-                                                               
+
+
 
   - name: STR_UNTRAINED_SCIENTIST
-    category: STR_TRAINING  
+    category: STR_TRAINING
     space: 0
     time: 128
     cost: 0
     producedItems: {} # empty
     spawnedPersonType: STR_SCIENTIST
     requiredItems:
-        STR_UNTRAINED_SCIENTIST: 1
+      STR_UNTRAINED_SCIENTIST: 1
     refund: true
 
 
 
-#            _____  __  __  ____  _____        _____  ______ _____        _____ _____  
-#      /\   |  __ \|  \/  |/ __ \|  __ \      |  __ \|  ____|  __ \ /\   |_   _|  __ \ 
+#            _____  __  __  ____  _____        _____  ______ _____        _____ _____
+#      /\   |  __ \|  \/  |/ __ \|  __ \      |  __ \|  ____|  __ \ /\   |_   _|  __ \
 #     /  \  | |__) | \  / | |  | | |__) |     | |__) | |__  | |__) /  \    | | | |__) |
-#    / /\ \ |  _  /| |\/| | |  | |  _  /      |  _  /|  __| |  ___/ /\ \   | | |  _  / 
-#   / ____ \| | \ \| |  | | |__| | | \ \      | | \ \| |____| |  / ____ \ _| |_| | \ \ 
+#    / /\ \ |  _  /| |\/| | |  | |  _  /      |  _  /|  __| |  ___/ /\ \   | | |  _  /
+#   / ____ \| | \ \| |  | | |__| | | \ \      | | \ \| |____| |  / ____ \ _| |_| | \ \
 #  /_/    \_\_|  \_\_|  |_|\____/|_|  \_\     |_|  \_\______|_| /_/    \_\_____|_|  \_\
-                                                                                     
-                                                                                     
+
+
 
   - name: STR_CORPSE_LEATHER_ARMOR
     category: STR_PERSONAL_ARMOR
@@ -683,8 +683,8 @@ manufacture:
       STR_IRON_SCRAPS: 3
     producedItems:
       STR_WASTELANDER_ARMOR: 1
-     
-      
+
+
   - name: STR_CORPSE_HAZMAT_ARMOR
     category: STR_PERSONAL_ARMOR
     requires:
@@ -698,7 +698,7 @@ manufacture:
       STR_IRON_SCRAPS: 2
     producedItems:
       STR_HAZMAT_ARMOR: 1
-      
+
   - name: STR_CORPSE_HAZMAT_ACID_ARMOR
     category: STR_PERSONAL_ARMOR
     requires:
@@ -712,7 +712,7 @@ manufacture:
       STR_IRON_SCRAPS: 3
     producedItems:
       STR_HAZMAT_ACID_ARMOR: 1
-      
+
   - name: STR_CORPSE_POWER_ARMOR
     category: STR_PERSONAL_ARMOR
     requires:
@@ -725,7 +725,7 @@ manufacture:
       STR_IRON_SCRAPS: 30
     producedItems:
       STR_POWER_ARMOR: 1
- 
+
   - name: STR_CORPSE_HANDCRAFTED_POWER_ARMOR
     category: STR_PERSONAL_ARMOR
     requires:
@@ -739,7 +739,7 @@ manufacture:
       STR_IRON_SCRAPS: 15
     producedItems:
       STR_HANDCRAFTED_POWER_ARMOR: 1
-      
+
   - name: STR_CORPSE_PROTOTYPE_POWER_ARMOR
     category: STR_PERSONAL_ARMOR
     requires:
